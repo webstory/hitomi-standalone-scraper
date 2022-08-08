@@ -11,6 +11,7 @@ const $http = axios.create({
   },
   withCredentials: true,
   validateStatus: null,
+  timeout: 60000,
 });
 
 async function getGalleries(nozomiIndex) {
