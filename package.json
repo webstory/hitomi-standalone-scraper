@@ -1,0 +1,14 @@
+{
+  "name": "hitomi-scraper",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Hoya Kim",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "main": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
